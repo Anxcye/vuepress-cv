@@ -11,6 +11,6 @@ jobs:
       uses: jenkey2011/vuepress-deploy@master
       env:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-        BUILD_SCRIPT: pnpm build
+        BUILD_SCRIPT: yarn && yarn build
         BUILD_DIR: resume/.vuepress/dist/
         CNAME: cv.anxcye.com
