@@ -26,7 +26,7 @@ export default {
       margin: 0 !important;
     }
     
-    > h1 {
+    > div {
       display: flex;
       align-items: center;
       
@@ -39,12 +39,10 @@ export default {
         transform: translateY(-.2em)
         
         > h2 {
-          margin-top: 0.6em !important;
-          font-size: 0.5em;
           border-bottom: 0;
         }
         > h3 {
-          font-size: 0.4em;
+          margin-top: 0.6em !important;
           border-bottom: 0;
           }
       }
@@ -131,6 +129,7 @@ export default {
     }
 
     .role {
+      margin-left: 0.5em !important;
       flex: 1;
       font-size: 12px;
       text-align: left;
@@ -141,13 +140,24 @@ export default {
       flex: 1;
       font-size: 0.9em;
       text-align: right;
-      font-weight: normal;
+      font-weight: bold;
       font-style: italic;
     }
 
-    .tag {
-      width: min-content;
-      padding: 0.1em 0.3em;
+    @font-face {
+      font-family: 'JetBrains Mno';
+      src: url('https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono/web/woff2/JetBrainsMono-Bold.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono/web/woff/JetBrainsMono-Bold.woff') format('woff');
+      font-display: swap;
+    }
+
+    code {
+      font-family: JetBrains Mno, monospace;
+      color: black;
+      font-size: 0.9em;
+      margin: 0.1em 0.3em !important;
+      width: fit-content;
+      padding: 0.1em 0.3em !important;
       background-color: #dddddd;
       font-weight: bold;
       border-radius: 0.3em;
