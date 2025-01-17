@@ -29,10 +29,6 @@ export default {
     > div {
       display: flex;
       align-items: center;
-      
-      img {
-        width: 0.9rem;
-      }
 
       > div {
         flex: 1;
@@ -42,8 +38,9 @@ export default {
           border-bottom: 0;
         }
         > h3 {
-          margin-top: 0.6em !important;
+          margin-top: 0.4em !important;
           border-bottom: 0;
+          font-size: 1.3em;
           }
       }
 
@@ -81,6 +78,7 @@ export default {
       display: flex;
       align-items: baseline;
       margin-bottom: 0.6em !important;
+      align-items: center;
 
       .header-anchor {
         display: none;
