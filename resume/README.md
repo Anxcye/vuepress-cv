@@ -12,7 +12,7 @@
   <ul>
     <li><span><img src="./img/phone-outline.svg"> / <img src="./img/wechat.svg"></span> 在线版不能公开呢</li>
     <li><span><img src="./img/email-outline.svg"></span> <a href="mailto:axyyu@outlook.com" target="_blank">axyyu@outlook.com</a></li>
-    <li><span><img src="./img/github-outline.svg"></span> <a href="https://github.com/Anxcye" target="_blank">github.com/Anxcye</a> (<img src="./img/star.svg"> 1.8k+)</li>
+    <li><span><img src="./img/github-outline.svg"></span> <a href="https://github.com/Anxcye" target="_blank">github.com/Anxcye</a> (<img src="./img/star.svg"> 2.0k+)</li>
     <li><span><img src="./img/person-outline.svg"></span> <a href="https://anxcye.com" target="_blank">https://anxcye.com</a></li>
   </ul>
 </div>
@@ -40,7 +40,7 @@
 
 `Flutter` `Dart` `SQLite` `Riverpod` `JavaScript` `InAppWebView` `Dio`
 
-使用 Flutter 开发的一款跨平台的电子书阅读器，收获 1.8k+ star 和 160+ fork/issue和超万次的下载量。实现了阅读界面的高度自定义、详尽的阅读数据统计、丰富的书签和笔记功能以及多端同步。
+使用 Flutter 开发的一款跨平台的电子书阅读器，收获 2.0k+ star 和 100+ issue和数万次的下载量。实现了阅读界面的高度自定义、详尽的阅读数据统计、丰富的书签和笔记功能以及多端同步。
 
 - 使用 Riverpod 作为状态管理，实现了全局状态的管理和共享，结合 shared_preferences 实现了数据的持久化
 - 使用 SQLite 作为本地数据库，并能够在大版本更新时进行数据迁移
@@ -63,7 +63,7 @@
 - 使用 Spring Scheduled 定时任务，将 Redis 中的数据定时持久化到 MySQL 中，保证数据的安全性
 - 项目已支持阿里云 OSS，将图片等静态资源上传到 OSS，减轻服务器的压力
 - 前端使用 Vue 3 + TypeScript，并借助 Vue Router 实现动态路由，Pinia 实现状态管理。选用了 Tailwind CSS 和 SCSS 作为样式预处理器
-- 编写了 Dockerfile 和 docker-compose，使用了 Nginx 反向代理，并配置了 SSL 证书，自动更新。构建了前后端分离的项目，可以一键部署
+- 编写了 Dockerfile 和 docker-compose，使用了 Nginx 反向代理，并配置了 SSL 证书的自动更新。构建了前后端分离的项目，可以一键部署
 - 使用 GitHub Actions 自动化打包，编写了 workflow，在推送后自动打包发布。目前项目已运行在 Azure 服务器上，并借助 Cloudflare 防范攻击
 
 ## 其他
