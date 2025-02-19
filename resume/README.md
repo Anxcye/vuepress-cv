@@ -12,7 +12,7 @@
   <ul>
     <li><span><img src="./img/phone-outline.svg"> / <img src="./img/wechat.svg"></span> 在线版不能公开呢</li>
     <li><span><img src="./img/email-outline.svg"></span> <a href="mailto:axyyu@outlook.com" target="_blank">axyyu@outlook.com</a></li>
-    <li><span><img src="./img/github-outline.svg"></span> <a href="https://github.com/Anxcye" target="_blank">github.com/Anxcye</a> (<img src="./img/star.svg"> 2.0k+)</li>
+    <li><span><img src="./img/github-outline.svg"></span> <a href="https://github.com/Anxcye" target="_blank">github.com/Anxcye</a> (<img src="./img/star.svg"> 2.2k+)</li>
     <li><span><img src="./img/person-outline.svg"></span> <a href="https://anxcye.com" target="_blank">https://anxcye.com</a></li>
   </ul>
 </div>
@@ -36,11 +36,11 @@
 
 ## 项目经验
 
-### 开源项目-安读 <span class="role"></span> <img width="16px" src="./img/star.svg"> 1.8k+ &nbsp;&nbsp; <a href="https://github.com/anxcye/anx-reader" target="_blank">github.com/anxcye/anx-reader</a> <span class="right">2024.03 - 至今</span>
+### 开源项目-安读 <span class="role"></span> <img width="16px" src="./img/star.svg"> 2.2k+ &nbsp;&nbsp; <a href="https://github.com/anxcye/anx-reader" target="_blank">github.com/anxcye/anx-reader</a> <span class="right">2024.03 - 至今</span>
 
 `Flutter` `Dart` `SQLite` `Riverpod` `JavaScript` `InAppWebView` `Dio`
 
-使用 Flutter 开发的一款跨平台的电子书阅读器，收获 2.0k+ star 和 100+ issue和数万次的下载量。实现了阅读界面的高度自定义、详尽的阅读数据统计、丰富的书签和笔记功能以及多端同步。
+使用 Flutter 开发的一款跨平台的电子书阅读器，收获 2.2k+ star 和 100+ issue和数万次的下载量。实现了阅读界面的高度自定义、详尽的阅读数据统计、丰富的书签和笔记功能以及多端同步。
 
 - 使用 Riverpod 作为状态管理，实现了全局状态的管理和共享，结合 shared_preferences 实现了数据的持久化
 - 使用 SQLite 作为本地数据库，并能够在大版本更新时进行数据迁移
