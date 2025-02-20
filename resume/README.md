@@ -11,7 +11,7 @@
   
   <ul>
     <li><span><img src="./img/phone-outline.svg"> / <img src="./img/wechat.svg"></span> 在线版不能公开呢</li>
-    <li><span><img src="./img/email-outline.svg"></span> <a href="mailto:axyyu@outlook.com" target="_blank">axyyu@outlook.com</a></li>
+    <li><span><img src="./img/email-outline.svg"></span> <a href="mailto:anxcye@outlook.com" target="_blank">anxcye@outlook.com</a></li>
     <li><span><img src="./img/github-outline.svg"></span> <a href="https://github.com/Anxcye" target="_blank">github.com/Anxcye</a> (<img src="./img/star.svg"> 2.2k+)</li>
     <li><span><img src="./img/person-outline.svg"></span> <a href="https://anxcye.com" target="_blank">https://anxcye.com</a></li>
   </ul>
@@ -68,5 +68,5 @@
 - 使用 GitHub Actions 自动化打包，编写了 workflow，在推送后自动打包发布。目前项目已运行在 Azure 服务器上，并借助 Cloudflare 防范攻击
 
 ## 其他
-
+- 关注前沿技术，热爱开源，喜欢尝试新事物，有较强的自学能力
 - 本简历在线地址：<a href="https://cv.anxcye.com" target="_blank">cv.anxcye.com</a>
