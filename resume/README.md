@@ -1,6 +1,6 @@
 <div>
   <div>
-    <h1>姓名</h1>
+    <h1>Anxcye</h1>
     <h3>求职意向：后端开发实习生</h3>
   </div>
   <style>
@@ -28,11 +28,11 @@
 - **Java 核心技术**：掌握 Java 基础，反射、集合、并发编程（锁、线程池等）、JVM（内存模型、垃圾回收机制、类加载机制）
 - **Spring 框架**：熟悉 Spring Boot、MyBatis-Plus、Spring Security 等框架，熟悉 IOC 和 AOP 的原理
 - **数据库**：熟悉 MySQL 数据库，了解索引、事务、锁等机制
-- **Redis**：熟悉 Redis 缓存，了解缓存的穿透、雪崩、击穿问题，了解分布式锁、缓存淘汰策略
+- **缓存**：熟悉 Redis 缓存，了解缓存的穿透、雪崩、击穿问题，了解分布式锁、缓存淘汰策略
 - **Vue 前端**：熟悉 Vue 框架，并能够使用 Vue Router、Pinia 和 Tailwind CSS 等库，能够使用 TypeScript
-- **Flutter**：熟悉 Flutter 开发，了解 Dart 语言，熟悉 Riverpod、InAppWebView、Dio 等库
+- **Flutter**：熟悉 Flutter 开发，熟悉 Dart 语言，熟悉 Riverpod、InAppWebView、Dio 等库
 - **Docker**：熟悉 Docker 容器，能够创建镜像、编写 Dockerfile、docker-compose 和配置网络
-- **环境与工具**：熟练地在 Linux 环境下进行开发，熟练使用 Git 版本控制，了解 Nginx、SSL 证书的配置、GitHub Actions 的使用
+- **环境与工具**：熟练地在 Linux 环境下进行开发，熟练使用 Git，了解 Nginx、SSL 证书的配置、GitHub Actions 的使用
 
 ## 项目经验
 
@@ -40,15 +40,15 @@
 
 `Flutter` `Dart` `SQLite` `Riverpod` `JavaScript` `InAppWebView` `Dio`
 
-使用 Flutter 开发的一款集成 AI 的跨平台的电子书阅读器，收获 2.2k+ star 和 100+ issue和数万次的下载量。实现了阅读界面的高度自定义、详尽的阅读数据统计、丰富的书签和笔记功能以及多端同步。
+Flutter 开发的集成 AI 的跨平台的电子书阅读器，收获 2.2k+ star 和数万次的下载，处理 100+ issue。实现了阅读界面的高度自定义、详尽的阅读数据统计、丰富的书签和笔记功能以及多端同步。
 
 - 集成 OpenAI/Gemini/Claude/DeepSeek 等多种 AI 服务，深度整合多种智能功能
 - 使用 Riverpod 作为状态管理，实现了全局状态的管理和共享，结合 shared_preferences 实现了数据的持久化
 - 使用 SQLite 作为本地数据库，并能够在修改数据库时进行数据迁移
 - 使用 InAppWebView 实现了 Flutter 和 JavaScript 的交互，编写 JavaScript 代码实现了阅读界面的展示以及自定义
-- 使用 Dio 实现了网络请求，以及 WebDAV 的支持，实现多平台跨端同步
-- 使用多线程，在备份/恢复数据、转换书籍格式等耗时操作时，不会阻塞 UI 线程并减少了 90% 的时间
-- 使用 GitHub Actions 在推送新版本时自动打包发布，实现了 Android 和 Windows 的跨平台编译、发布
+- 使用 Dio 实现网络请求，支持 WebDAV，确保多平台跨端同步
+- 使用多线程，在备份/恢复数据、转换书籍格式等耗时操作时，不会阻塞 UI 线程，减少了 90% 的时间
+- 使用 GitHub Actions 在推送新版本时自动打包发布，实现 Android 和 Windows 的跨平台编译、发布
 
 ---
 
