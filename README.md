@@ -7,7 +7,7 @@
 
 通过本项目，你可以使用 Markdown 书写简历，并通过 VuePress 部署为可预览的页面。
 
-[点击此处预览项目](https://cv.anxcye.com)
+在线预览地址：[cv.anxcye.com](https://cv.anxcye.com)
 
 来源于这个项目 [Siricee/Resume-vuepress](https://github.com/Siricee/Resume-vuepress)<br>
 
@@ -49,31 +49,3 @@ Chrome 页面中右键 -> 打印 -> 另存为 pdf。
 所有页面、目录下的默认页均为 `README.md` 且 **不可更改**，这是VuePress的约定。
 
 本项目中的 `根目录 README.md` 与 `resume/README.md` 完全不同，前者为项目说明文档，后者为简历文档。
-
-### 命令
-
-开发者应注意，VuePress指令不同于npm，[官方文档|全局安装](https://v1.vuepress.vuejs.org/zh/guide/getting-started.html#全局安装)
-
-```bash
-vuepress dev resume		# 开发模式
-vuepress build resume	# 生产模式
-```
-
-未配置 `package.json` 时 `npm run dev/build` 会报错，在 `package.json` 中添加命令
-
-```javascript
-{
-    "scripts": {
-        "dev": "vuepress dev resume",
-        "build": "vuepress build resume"
-  	}
-}
-```
-
-`npm run dev/build` 才可以正常运行。
-
-### 添加页面
-
-添加页面时在 `resume` 内增加文件夹并添加默认README.md，然后在 `resume\.vuepress\config.js` 中 `sidebar` 字段添加信息即可，此处可参考 [官方文档|目录结构](https://v1.vuepress.vuejs.org/zh/guide/directory-structure.html)。
-
-License：MIT
