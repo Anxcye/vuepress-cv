@@ -1,7 +1,7 @@
 <div>
   <div>
     <h1>Anxcye</h1>
-    <h3>求职意向：后端开发实习生</h3>
+    <h3>求职意向：后端开发</h3>
   </div>
   <style>
     img {
@@ -12,7 +12,7 @@
   <ul>
     <li><span><img src="./img/phone-outline.svg"> / <img src="./img/wechat.svg"></span> 在线版不能公开呢</li>
     <li><span><img src="./img/email-outline.svg"></span> <a href="mailto:anxcye@outlook.com" target="_blank">anxcye@outlook.com</a></li>
-    <li><span><img src="./img/github-outline.svg"></span> <a href="https://github.com/Anxcye" target="_blank">github.com/Anxcye</a> (<img src="./img/star.svg"> 4.5k+)</li>
+    <li><span><img src="./img/github-outline.svg"></span> <a href="https://github.com/Anxcye" target="_blank">github.com/Anxcye</a> (<img src="./img/star.svg"> 5.7k+)</li>
     <li><span><img src="./img/person-outline.svg"></span> <a href="https://anxcye.com" target="_blank">https://anxcye.com</a></li>
   </ul>
 </div>
@@ -29,18 +29,17 @@
 - **Spring 框架**：熟悉 Spring Boot、MyBatis-Plus、Spring Security 等框架，熟悉 IOC 和 AOP 的原理
 - **数据库**：熟悉 MySQL 数据库，了解索引、事务、锁等机制
 - **缓存**：熟悉 Redis 缓存，了解缓存的穿透、雪崩、击穿问题，了解分布式锁、缓存淘汰策略
-- **Vue 前端**：熟悉 Vue 框架，并能够使用 Vue Router、Pinia 和 Tailwind CSS 等库，能够使用 TypeScript
-- **Flutter**：熟悉 Flutter 开发，熟悉 Dart 语言，熟悉 Riverpod、InAppWebView、Dio 等库
+- **Vue、Flutter**：熟悉 Vue 框架及常用库，能够使用 TypeScript。熟悉 Flutter 开发，Dart 语言，熟悉 Riverpod 等库
 - **Docker**：熟悉 Docker 容器，能够创建镜像、编写 Dockerfile、docker-compose 和配置网络
 - **环境与工具**：熟练地在 Linux 环境下进行开发，熟练使用 Git，了解 Nginx、SSL 证书的配置、GitHub Actions 的使用
 
 ## 项目经验
 
-### 开源项目-安读 <span class="role"></span> <img width="16px" src="./img/star.svg"> 4.5k+ &nbsp;&nbsp; <a href="https://github.com/anxcye/anx-reader" target="_blank">github.com/anxcye/anx-reader</a> <span class="right">2024.03 - 至今</span>
+### 开源项目-安读 <span class="role"></span> <img width="16px" src="./img/star.svg"> 5.7k+ &nbsp;&nbsp; <a href="https://github.com/anxcye/anx-reader" target="_blank">github.com/anxcye/anx-reader</a> <span class="right">2024.03 - 至今</span>
 
 `Flutter` `Dart` `SQLite` `Riverpod` `JavaScript` `InAppWebView` `Dio`
 
-Flutter 开发的集成 AI 的跨平台的电子书阅读器，收获 4.5k+ star 和数万次的下载，处理200+ issue，并上架App Store和运营推广。实现了阅读界面的高度自定义、详尽的阅读数据统计、丰富的书签和笔记功能以及多端同步。
+Flutter 开发的集成 AI 的跨平台的电子书阅读器，收获 5.7k+ star 和数万次的下载，处理200+ issue，并上架App Store和运营推广。实现了阅读界面的高度自定义、详尽的阅读数据统计、丰富的书签和笔记功能以及多端同步。
 
 - 集成 OpenAI/Gemini/Claude/DeepSeek 等多种 AI 服务，深度整合多种智能功能
 - 使用 Riverpod 作为状态管理，实现了全局状态的管理和共享，结合 shared_preferences 实现了数据的持久化
@@ -48,7 +47,7 @@ Flutter 开发的集成 AI 的跨平台的电子书阅读器，收获 4.5k+ star
 - 使用 InAppWebView 实现了 Flutter 和 JavaScript 的交互，编写 JavaScript 代码实现了阅读界面的展示以及自定义
 - 使用 Dio 实现网络请求，支持 WebDAV，确保多平台跨端同步
 - 使用多线程，在备份/恢复数据、转换书籍格式等耗时操作时，不会阻塞 UI 线程，减少了 90% 的时间
-- 使用 GitHub Actions 在推送新版本时自动打包发布，实现 Android、Windows 和 MacOS 的跨平台编译、发布
+- 使用 GitHub Actions 在推送新版本时自动打包发布，实现 Android、Windows、iOS 和 MacOS 的跨平台编译、发布
 
 ---
 
