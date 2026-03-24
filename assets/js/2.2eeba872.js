@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[2],{285:function(n,t,e){"use strict";e.r(t);var o={mounted(){"/"!==window.location.pathname&&window.location.replace("/")}},a=e(27),i=Object(a.a)(o,(function(){return(0,this._self._c)("div",{staticClass:"theme-container"})}),[],!1,null,null,null);t.default=i.exports}}]);
