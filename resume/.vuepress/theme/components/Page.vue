@@ -29,9 +29,11 @@ export default {
     > div {
       display: flex;
       align-items: center;
+      gap: 1rem;
 
       > div {
-        flex: 1;
+        flex: 1 1 auto;
+        min-width: 0;
         transform: translateY(-.2em)
         
         > h2 {
@@ -41,15 +43,20 @@ export default {
           margin-top: 0.4em !important;
           border-bottom: 0;
           font-size: 1.3em;
-          }
+          display: flex;
+          flex-wrap: wrap;
+          align-items: center;
+          gap: 0.2em 0.5em;
+        }
       }
 
       > ul {
-        float: right;
+        flex: 0 1 auto;
         font-size: 12px;
         font-weight: normal;
         margin: 0;
         padding: 0;
+        min-width: 0;
         
         > li {
           display: flex;
@@ -103,6 +110,8 @@ export default {
 
     > h3 {
       font-size: 1.1em;
+      flex-wrap: wrap;
+      gap: 0.25em 0.5em;
 
       &:not(:first-of-type) {
         margin-top: 0.6em !important;
@@ -111,9 +120,6 @@ export default {
 
     > p, > ul, > ol {
       line-height: 1.5;
-    }
-
-    > p {
     }
 
     > ul {
@@ -128,18 +134,46 @@ export default {
 
     .role {
       margin-left: 0.5em !important;
-      flex: 1;
       font-size: 12px;
       text-align: left;
     }
 
+    .entry-title {
+      font-weight: 600;
+    }
+
+    .entry-meta {
+      display: inline-flex;
+      flex: 1 1 auto;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 0.25em 0.5em;
+      min-width: 0;
+      font-size: 0.95em;
+    }
+
     .right {
-      float: right;
-      flex: 1;
+      margin-left: auto !important;
       font-size: 0.9em;
       text-align: right;
       font-weight: bold;
       font-style: italic;
+      white-space: nowrap;
+    }
+
+    .intro-line .entry-title::after {
+      content: '：';
+    }
+
+    .entry-line {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 0.2em 0.5em;
+    }
+
+    .entry-line .entry-meta {
+      font-size: 1em;
     }
 
     @font-face {
@@ -159,6 +193,63 @@ export default {
       background-color: #dddddd;
       font-weight: bold;
       border-radius: 0.3em;
+    }
+
+    @media (max-width: 640px) {
+      > h3 {
+        align-items: flex-start;
+      }
+
+      > div {
+        align-items: flex-start;
+
+        > div {
+          flex: 1 1 52%;
+          transform: none;
+        }
+
+        > ul {
+          flex: 1 1 48%;
+
+          > li {
+            flex-wrap: wrap;
+            justify-content: flex-end;
+            column-gap: 0.35em;
+
+            > span {
+              width: auto;
+              flex: 0 0 auto;
+            }
+          }
+        }
+      }
+
+      .entry-title {
+        flex: 1 1 auto;
+        min-width: 0;
+      }
+
+      .entry-meta {
+        flex: 0 0 100%;
+        order: 3;
+        margin-top: 0.15em !important;
+      }
+
+      .role {
+        margin-left: 0 !important;
+      }
+
+      .right {
+        order: 2;
+        flex: 0 0 auto;
+      }
+
+      .entry-line .entry-meta,
+      .intro-line .entry-meta {
+        flex: 0 0 100%;
+        order: 3;
+        margin-top: 0.15em !important;
+      }
     }
   }
 }
