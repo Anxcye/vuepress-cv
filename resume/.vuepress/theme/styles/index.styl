@@ -1,10 +1,4 @@
 @require './config'
-@require './nprogress'
-@require './code'
-@require './custom-blocks'
-@require './arrow'
-@require './wrapper'
-@require './toc'
 
 html, body
   padding 0
@@ -16,65 +10,13 @@ body
   -moz-osx-font-smoothing grayscale
   font-size 16px
   color $textColor
-
-.page
-  padding-left auto
-
-.navbar
-  position fixed
-  z-index 20
-  top 0
-  left 0
-  right 0
-  height $navbarHeight
   background-color #fff
-  box-sizing border-box
-  border-bottom 1px solid $borderColor
 
-.li
-  flex-wrap wrap
-
-.sidebar-mask
-  position fixed
-  z-index 9
-  top 0
-  left 0
-  width 100vw
-  height 100vh
-  display none
-
-.sidebar
-  font-size 15px
-  background-color #fff
-  width $sidebarWidth
-  position fixed
-  z-index 10
-  margin 0
-  top $navbarHeight
-  left 0
-  bottom 0
-  box-sizing border-box
-  border-right 1px solid $borderColor
-  overflow-y auto
-
-.content:not(.custom)
+.content
   max-width $contentWidth
   margin 0 auto
   padding 2rem 2.5rem
-  > *:first-child
-    margin-top $navbarHeight
-  a:hover
-    text-decoration underline
-  p.demo
-    padding 1rem 1.5rem
-    border 1px solid #ddd
-    border-radius 4px
-  img
-    max-width 100%
 
-.content.custom
-  padding 0
-  margin 0
   img
     max-width 100%
 
@@ -83,16 +25,8 @@ a
   color $accentColor
   text-decoration none
 
-p a code
-  font-weight 400
-  color $accentColor
-
-kbd
-  background #eee
-  border solid 0.15rem #ddd
-  border-bottom solid 0.25rem #ddd
-  border-radius 0.15rem
-  padding 0 0.15em
+a:hover
+  text-decoration underline
 
 blockquote
   font-size 1.2rem
@@ -110,15 +44,6 @@ strong
 h1, h2, h3, h4, h5, h6
   font-weight 600
   line-height 1.25
-  .content:not(.custom) > &
-    margin-top (0.5rem - $navbarHeight)
-    padding-top ($navbarHeight + 1rem)
-    margin-bottom 0
-    &:first-child
-      margin-top -1.5rem
-      margin-bottom 1rem
-      + p, + pre, + .custom-block
-        margin-top 2rem
   &:hover .header-anchor
     opacity: 1
 
@@ -143,9 +68,6 @@ a.header-anchor
   &:hover
     text-decoration none
 
-code, kbd, .line-number
-  font-family source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace
-
 p, ul, ol
   line-height 1.7
 
@@ -166,29 +88,13 @@ th, td
   border 1px solid #dfe2e5
   padding .6em 1em
 
-.custom-layout
-  padding-top $navbarHeight
+@media (max-width: $MQNarrow)
+  .content
+    padding 2rem
 
-.theme-container
-  &.sidebar-open
-    .sidebar-mask
-      display: block
-  &.no-navbar
-    .content:not(.custom) >
-      h1, h2, h3, h4, h5, h6
-        margin-top 1.5rem
-        padding-top 0
-    .sidebar
-      top 0
-    .custom-layout
-      padding-top 0
+@media (max-width: $MQMobileNarrow)
+  h1
+    font-size 1.9rem
 
-
-@media (min-width: ($MQMobile + 1px))
-  .theme-container.no-sidebar
-    .sidebar
-      display none
-    .page
-      padding-left 0
-
-@require './mobile.styl'
+  .content
+    padding 1.5rem
